@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head><!--文档元数据-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 使得网页在移动设备上能正确显示 --> 
+    <title>图片集</title><!--设置网页标题-->
+    <link rel="stylesheet" href="styles.css"><!--引入外部样式表文件-->
+</head>
+
+
+<body><!--网页的可见内容-->
+<div class="centered-text"><!--居中显示文字-->
+    <p>图片</p>
+</div>
+
+<div class="gallery"><!--一个包含图片集的div元素-->
+    <div class="main-image"> <!--主图-->
+        <img src="img/i2.jpg" alt="Main Image"><!--主图的<img>标签，src指定了图片的路径，alt是图片的替代文本，用于图片无法显示时提供信息。 -->
+		<p>----------------------------------------------</p><!--分割线-->
+    </div>
+    <div class="thumbnail-row"><!--缩略图-->
+		
+        <img src="img/i2.jpg" alt="Thumbnail 1"><!--引用三个缩略图图片-->
+		
+        <img src="img/i3.jpg" alt="Thumbnail 2">
+		
+        <img src="img/i4.jpg" alt="Thumbnail 3">
+	
+    </div>
+</div>
+<script src="script.js"></script><!--引入外部JavaScript文件-->
+</body>
+</html>
