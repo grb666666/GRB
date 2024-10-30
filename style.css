@@ -1,0 +1,42 @@
+body {
+  background: #6c373f;
+  display: flex;
+  justify-content: center;
+  }
+
+#alice-container {
+  width: 90vh;
+  display: grid;
+  place-items: center;
+  grid-template-areas:
+    "a1 . ."
+    ". a2 ."
+    ". . a3";
+}
+
+#alice1 {
+  grid-area: a1;
+}
+
+#alice2 {
+  grid-area: a2;
+}
+
+#alice3 {
+  grid-area: a3;
+}
+
+
+#alice-container {
+  position: relative;
+  width: 90vh; /* 根据需要调整容器宽度 */
+  height: 90vh; /* 根据需要调整容器高度 */
+}
+
+#alice-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px; /* 根据需要调整图片大小 */
+  height: 200px; /* 根据需要调整图片大小 */
+}
